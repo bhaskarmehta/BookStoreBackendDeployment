@@ -5,7 +5,7 @@ metadata:
    namespace: default
 spec:
    selector:
-        name:backend-deployment  
+        name: backend-deployment  
    ports:
       - protocol: "TCP"
         port: 4000
