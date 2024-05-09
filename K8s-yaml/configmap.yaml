@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: backend-config
+  namespace: default
 data:
   PORT: "4000"
   DBConnection: "mongodb://65.0.19.67:27017/bookStore"
