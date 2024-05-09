@@ -21,4 +21,4 @@ spec:
                   - containerPort: 4000 
                 envFrom:
                    - configMapRef:
-                          backend-config                
+                        name: backend-config                
