@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: backendpod
-          image: bhasmeht/bookstorebackend:1.1.6 # {"$imagepolicy": "flux-system:backend-podinfo"}
+          # image: bhasmeht/bookstorebackend:1.1.6 # {"$imagepolicy": "flux-system:backend-podinfo"}
+          image: bhasmeht/bookstorebackend:1.1.6
           ports:
             - containerPort: 4000
           envFrom:
