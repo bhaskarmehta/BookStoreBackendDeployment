@@ -5,4 +5,4 @@ metadata:
   namespace: default
 data:
   PORT: "4000"
-  DBConnection: "mongodb://13.235.49.59:27017/bookStore"
+  DBConnection: "mongodb://13.201.18.32:27017/bookStore"
